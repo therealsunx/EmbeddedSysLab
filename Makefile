@@ -1,10 +1,10 @@
 all: result.vcd
 
-result.vcd: decoder3x8.vhdl decoder3x8_tb.vhdl 
-	ghdl -a --std=08 decoder3x8.vhdl
-	ghdl -a decoder3x8_tb.vhdl
-	ghdl -e decoder3x8_tb
-	ghdl -r decoder3x8_tb --vcd=result.vcd
+result.vcd: fulladder.vhdl fulladder_tb.vhdl 
+	ghdl -a --std=08 fulladder.vhdl
+	ghdl -a fulladder_tb.vhdl
+	ghdl -e fulladder_tb
+	ghdl -r fulladder_tb --vcd=result.vcd
 
 clean:
 	rm -rf result.vcd
