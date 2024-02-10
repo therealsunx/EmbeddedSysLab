@@ -1,0 +1,38 @@
+$date
+  Sat Feb 10 21:45:15 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module decoder3x8_tb $end
+$var reg 3 ! a[2:0] $end
+$var reg 8 " q[7:0] $end
+$scope module uut $end
+$var reg 3 # a[2:0] $end
+$var reg 8 $ q[7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b00000001 "
+b000 #
+b00000001 $
+#10000000
+b010 !
+b00000100 "
+b010 #
+b00000100 $
+#20000000
+b111 !
+b10000000 "
+b111 #
+b10000000 $
+#30000000

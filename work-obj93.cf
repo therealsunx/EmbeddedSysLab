@@ -1,7 +1,0 @@
-v 4
-file . "seq1011detector_tb.vhdl" "9014052ad8211a0fa5677b28ccc129550c0e1813" "20240210135904.339":
-  entity seq1011_tb at 1( 0) + 0 on 29;
-  architecture test of seq1011_tb at 7( 82) + 0 on 30;
-file . "seq1011detector.vhdl" "0437f715d65a82dd70dbd4f22b70d9d111f05d29" "20240210135904.329":
-  entity seq1011 at 1( 0) + 0 on 27;
-  architecture seq of seq1011 at 13( 275) + 0 on 28;
