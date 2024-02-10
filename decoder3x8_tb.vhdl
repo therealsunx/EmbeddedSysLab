@@ -20,22 +20,18 @@ begin
 
     process
     begin
-        -- Test case 1: A = "000"
         A <= "000";
         wait for 10 ns;
         assert Q = "00000001" report "Test Case 1 Failed" severity error;
 
-        -- Test case 2: A = "010"
         A <= "010";
         wait for 10 ns;
         assert Q = "00000100" report "Test Case 2 Failed" severity error;
 
-        -- Test case 3: A = "111"
         A <= "111";
         wait for 10 ns;
         assert Q = "10000000" report "Test Case 3 Failed" severity error;
 
-        -- Add more test cases as needed
 
         wait;
     end process;
