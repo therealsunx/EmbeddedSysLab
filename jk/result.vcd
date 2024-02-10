@@ -1,0 +1,71 @@
+$date
+  Sat Feb 10 22:14:02 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module jkflipflop_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " clr $end
+$var reg 1 # j $end
+$var reg 1 $ k $end
+$var reg 1 % q $end
+$var reg 1 & nq $end
+$scope module jk_flip_flop_inst $end
+$var reg 1 ' clk $end
+$var reg 1 ( clr $end
+$var reg 1 ) j $end
+$var reg 1 * k $end
+$var reg 1 + q $end
+$var reg 1 , nq $end
+$var reg 1 - qt $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+U%
+U&
+0'
+0(
+0)
+0*
+U+
+U,
+U-
+#500000000000000
+1"
+0%
+1&
+1(
+0+
+1,
+0-
+#1000000000000000
+0"
+1#
+0(
+1)
+#1500000000000000
+0#
+1$
+0)
+1*
+#2000000000000000
+1#
+1)
+#2500000000000000
+0#
+0$
+0)
+0*
