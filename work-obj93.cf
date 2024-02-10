@@ -1,4 +1,7 @@
 v 4
+file . "jkflipflop_tb.vhdl" "fd0286df8b49f19068559fed9632c1887087a383" "20240210131655.412":
+  entity jkflipflop_tb at 1( 0) + 0 on 31;
+  architecture test of jkflipflop_tb at 7( 88) + 0 on 32;
 file . "fullwithhalfadder_tb.vhdl" "48860afa499baf2174242519ea619a2af8a7cb53" "20240210121907.829":
   entity fulladder_tb at 1( 0) + 0 on 27;
   architecture testbench of fulladder_tb at 7( 86) + 0 on 28;
@@ -10,3 +13,6 @@ file . "fulladder_tb.vhdl" "6f22513e44dff826d3a22952aa1585d1619f2093" "202402101
 file . "fullwithhalfadder.vhdl" "9c580418ac3a175b639a2b1235d2daef827d505e" "20240210121907.818":
   entity fulladder at 3( 32) + 0 on 25;
   architecture structural of fulladder at 16( 268) + 0 on 26;
+file . "jkflipflop.vhdl" "84b98b987bf4a6d9dded2e185a4a4bddae8f0831" "20240210131655.402":
+  entity jkflipflop at 1( 0) + 0 on 29;
+  architecture behaviour of jkflipflop at 11( 169) + 0 on 30;
