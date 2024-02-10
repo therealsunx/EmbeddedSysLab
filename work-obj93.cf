@@ -1,7 +1,12 @@
 v 4
-file . "fulladder_tb.vhdl" "6f22513e44dff826d3a22952aa1585d1619f2093" "20240210115323.936":
-  entity fulladder_tb at 1( 0) + 0 on 21;
-  architecture test of fulladder_tb at 7( 90) + 0 on 22;
+file . "fullwithhalfadder_tb.vhdl" "48860afa499baf2174242519ea619a2af8a7cb53" "20240210121907.829":
+  entity fulladder_tb at 1( 0) + 0 on 27;
+  architecture testbench of fulladder_tb at 7( 86) + 0 on 28;
 file . "decoder3x8_tb.vhdl" "b6ccc82a16df776c08d110bc09fd3fa89d30b93a" "20240210103651.113":
   entity decoder3x8_tb at 1( 0) + 0 on 15;
   architecture testbench of decoder3x8_tb at 7( 88) + 0 on 16;
+file . "fulladder_tb.vhdl" "6f22513e44dff826d3a22952aa1585d1619f2093" "20240210115323.936":
+  architecture test of fulladder_tb at 7( 90) + 0 on 22;
+file . "fullwithhalfadder.vhdl" "9c580418ac3a175b639a2b1235d2daef827d505e" "20240210121907.818":
+  entity fulladder at 3( 32) + 0 on 25;
+  architecture structural of fulladder at 16( 268) + 0 on 26;
