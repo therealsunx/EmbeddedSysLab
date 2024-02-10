@@ -1,4 +1,7 @@
 v 4
+file . "lcm_tb.vhdl" "2e7990d47f24fbab132d32f949ea327dbae10fcd" "20240210133112.480":
+  entity lcm_fsm_tb at 1( 0) + 0 on 39;
+  architecture test of lcm_fsm_tb at 7( 82) + 0 on 40;
 file . "jkflipflop_tb.vhdl" "fd0286df8b49f19068559fed9632c1887087a383" "20240210131655.412":
   entity jkflipflop_tb at 1( 0) + 0 on 31;
   architecture test of jkflipflop_tb at 7( 88) + 0 on 32;
@@ -16,3 +19,6 @@ file . "fullwithhalfadder.vhdl" "9c580418ac3a175b639a2b1235d2daef827d505e" "2024
 file . "jkflipflop.vhdl" "84b98b987bf4a6d9dded2e185a4a4bddae8f0831" "20240210131655.402":
   entity jkflipflop at 1( 0) + 0 on 29;
   architecture behaviour of jkflipflop at 11( 169) + 0 on 30;
+file . "lcm.vhdl" "f6c640902aca7d1f51c9828b0de4729a50c86e36" "20240210133112.469":
+  entity lcm_fsm at 1( 0) + 0 on 37;
+  architecture behaviour of lcm_fsm at 12( 182) + 0 on 38;
