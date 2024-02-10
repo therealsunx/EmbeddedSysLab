@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity decoder3x8 is Port (
     A : in std_logic_vector(2 downto 0);
-    Q : out std_logic_vector (7 downto 0);
+    Q : out std_logic_vector (7 downto 0)
 );
 end decoder3x8;
 
@@ -28,6 +28,8 @@ architecture decode of decoder3x8 is
                     Q <= "01000000";
                 when "111" =>
                     Q <= "10000000";
+                when others =>
+                    Q <= "00000000";
             end case;
         end process;
     end decode;

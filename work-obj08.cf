@@ -1,0 +1,4 @@
+v 4
+file . "decoder3x8.vhdl" "ac16b147ad1c58c2a0fc56e3a004cb17aac08325" "20240210103651.104":
+  entity decoder3x8 at 1( 0) + 0 on 15;
+  architecture decode of decoder3x8 at 10( 175) + 0 on 16;
