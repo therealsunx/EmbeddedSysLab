@@ -1,0 +1,86 @@
+$date
+  Sat Feb 10 21:33:53 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module seq1011_tb $end
+$var reg 1 ! x $end
+$var reg 1 " y $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$scope module seq1011_inst $end
+$var reg 1 % x $end
+$var reg 1 & y $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst $end
+$comment state is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+U"
+0#
+1$
+0%
+U&
+0'
+1(
+#500000000000000
+0$
+0(
+#500001000000000
+1!
+1%
+#500002000000000
+0"
+1#
+0&
+1'
+#500003000000000
+0#
+0'
+#1000003000000000
+0!
+0%
+#1000004000000000
+1#
+1'
+#1000005000000000
+0#
+0'
+#1500005000000000
+1!
+1%
+#1500006000000000
+1#
+1'
+#1500007000000000
+0#
+0'
+#2000007000000000
+#2000008000000000
+1"
+1#
+1&
+1'
+#2000009000000000
+0#
+0'
+#2500009000000000
+0!
+0%
+#2500010000000000
+0"
+1#
+0&
+1'
+#2500020000000000

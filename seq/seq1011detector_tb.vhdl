@@ -58,6 +58,14 @@ begin
 
         wait for 500 ms;
 
+        x <= '1';
+        wait for 1 us;
+        clk <= '1';
+        wait for 1 us;
+        clk <= '0';
+
+        wait for 500 ms;
+
         -- Apply more input values
         x <= '0';
         wait for 1 us;
@@ -70,3 +78,4 @@ begin
 
     end process;
 end test;
+
