@@ -1,24 +1,7 @@
 v 4
-file . "lcm_tb.vhdl" "2e7990d47f24fbab132d32f949ea327dbae10fcd" "20240210133112.480":
-  entity lcm_fsm_tb at 1( 0) + 0 on 39;
-  architecture test of lcm_fsm_tb at 7( 82) + 0 on 40;
-file . "jkflipflop_tb.vhdl" "fd0286df8b49f19068559fed9632c1887087a383" "20240210131655.412":
-  entity jkflipflop_tb at 1( 0) + 0 on 31;
-  architecture test of jkflipflop_tb at 7( 88) + 0 on 32;
-file . "fullwithhalfadder_tb.vhdl" "48860afa499baf2174242519ea619a2af8a7cb53" "20240210121907.829":
-  entity fulladder_tb at 1( 0) + 0 on 27;
-  architecture testbench of fulladder_tb at 7( 86) + 0 on 28;
-file . "decoder3x8_tb.vhdl" "b6ccc82a16df776c08d110bc09fd3fa89d30b93a" "20240210103651.113":
-  entity decoder3x8_tb at 1( 0) + 0 on 15;
-  architecture testbench of decoder3x8_tb at 7( 88) + 0 on 16;
-file . "fulladder_tb.vhdl" "6f22513e44dff826d3a22952aa1585d1619f2093" "20240210115323.936":
-  architecture test of fulladder_tb at 7( 90) + 0 on 22;
-file . "fullwithhalfadder.vhdl" "9c580418ac3a175b639a2b1235d2daef827d505e" "20240210121907.818":
-  entity fulladder at 3( 32) + 0 on 25;
-  architecture structural of fulladder at 16( 268) + 0 on 26;
-file . "jkflipflop.vhdl" "84b98b987bf4a6d9dded2e185a4a4bddae8f0831" "20240210131655.402":
-  entity jkflipflop at 1( 0) + 0 on 29;
-  architecture behaviour of jkflipflop at 11( 169) + 0 on 30;
-file . "lcm.vhdl" "f6c640902aca7d1f51c9828b0de4729a50c86e36" "20240210133112.469":
-  entity lcm_fsm at 1( 0) + 0 on 37;
-  architecture behaviour of lcm_fsm at 12( 182) + 0 on 38;
+file . "seq1011detector_tb.vhdl" "9014052ad8211a0fa5677b28ccc129550c0e1813" "20240210135904.339":
+  entity seq1011_tb at 1( 0) + 0 on 29;
+  architecture test of seq1011_tb at 7( 82) + 0 on 30;
+file . "seq1011detector.vhdl" "0437f715d65a82dd70dbd4f22b70d9d111f05d29" "20240210135904.329":
+  entity seq1011 at 1( 0) + 0 on 27;
+  architecture seq of seq1011 at 13( 275) + 0 on 28;
