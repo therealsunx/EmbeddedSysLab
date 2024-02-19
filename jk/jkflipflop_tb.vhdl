@@ -34,21 +34,42 @@ begin
         clr <= '0';
         j <= '1';
         k <= '0';
+        
+        wait for 1 us;
+        clk <= '1';
+        wait for 1 us;
+        clk <= '0';
+        
         wait for 500 ms;
 
         -- Toggle inputs to test flip-flop behavior
         j <= '0';
         k <= '1';
+        
+        wait for 1 us;
+        clk <= '1';
+        wait for 1 us;
+        clk <= '0';
+
         wait for 500 ms;
 
         j <= '1';
         k <= '1';
+
+        wait for 1 us;
+        clk <= '1';
+        wait for 1 us;
+        clk <= '0';
         wait for 500 ms;
 
         j <= '0';
         k <= '0';
-
+	wait for 1 us;
+        clk <= '1';
+        wait for 1 us;
+        clk <= '0';
         wait;
 
     end process;
 end test;
+

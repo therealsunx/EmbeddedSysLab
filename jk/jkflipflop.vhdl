@@ -11,7 +11,7 @@ end jkflipflop;
 architecture behaviour of jkflipflop is
     signal qt : std_logic;
 begin
-    process(clk, clr)
+    process(clk, clr, j, k)
     begin
         if clr = '1' then
             qt <= '0';
