@@ -61,3 +61,4 @@ Additional Maintenance
 Certain modules have received additional maintenance updates. Please refer to the respective module folders for more information.
 
 All of the screenshots of the output waveforms of each module is inside the 'Outputs' folder.
+All the state diagrams are in the State_diagram folder.
