@@ -22,7 +22,11 @@ begin
     begin
         A <= "000";
         wait for 10 ns;
-        assert Q = "00000001" report "Test Case 1 Failed" severity error;
+        assert Q = "00000001" report "Test Case 0 Failed" severity error;
+        
+        A <= "001";
+        wait for 10 ns;
+        assert Q = "00000010" report "Test Case 1 Failed" severity error;
 
         A <= "010";
         wait for 10 ns;
@@ -31,8 +35,7 @@ begin
         A <= "111";
         wait for 10 ns;
         assert Q = "10000000" report "Test Case 3 Failed" severity error;
-
-
         wait;
+
     end process;
 end testbench;
